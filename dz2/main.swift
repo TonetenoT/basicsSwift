@@ -9,10 +9,9 @@ import Foundation
 
 var a: Float = 3
 var b: Float = 3
-var c = sqrt(Double(a*a+b*b))
-//var c = sqrt(Double(a^2+b^2))
-var s = (a*b)/2
-var p = Float(sqrt(Double(a*a+b*b)))+a+b
+var c = sqrt(Double(a * a + b * b))
+var s = (a * b) / 2
+var p = Float(sqrt(Double( a * a + b * b))) + a + b
 print ("площадь = \(s)")
 print ("периметр = \(p)")
 
