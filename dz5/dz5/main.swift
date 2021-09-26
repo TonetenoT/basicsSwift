@@ -59,12 +59,12 @@ extension Car {
     }
 }
 var autoOne = Auto(brand: "Audi",
-                model: "TT",
-                yearOfRelease: 2017,
-                color: "black",
-                starting: .on,
-                windows: .close,
-                bodywork: .bodyempty)
+                   model: "TT",
+                   yearOfRelease: 2017,
+                   color: "black",
+                   starting: .on,
+                   windows: .close,
+                   bodywork: .bodyempty)
 
 print(autoOne)
 
@@ -84,14 +84,14 @@ final class Auto: Car {
          starting: Starting,
          windows: Windows,
          bodywork: Bodywork) {
-    
-self.brand = brand
-self.model = model
-self.yearOfRelease = yearOfRelease
-self.color = color
-self.starting = starting
-self.windows = windows
-self.bodywork = bodywork
+        
+        self.brand = brand
+        self.model = model
+        self.yearOfRelease = yearOfRelease
+        self.color = color
+        self.starting = starting
+        self.windows = windows
+        self.bodywork = bodywork
     }
 }
 
